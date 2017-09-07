@@ -1,0 +1,4 @@
+import pickle as pk
+myDictionary = pk.load(open("C:/subu/python/modelDictionary", 'rb'))
+len(myDictionary.vocabulary_)
+myDictionary.vocabulary_['rule']
